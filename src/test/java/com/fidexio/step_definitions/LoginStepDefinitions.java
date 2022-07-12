@@ -13,7 +13,7 @@ public class LoginStepDefinitions {
     LoginPage loginPage = new LoginPage();
 
     @Given("user is on the login page of fidexio page")
-    public void user_is_at_the_login_page_of_fidexio_application() {
+    public void user_is_on_the_login_page_of_fidexio_page() {
 
         String url = ConfigurationReader.getProperty("fidexioUrl");
         Driver.getDriver().get(url);
@@ -32,7 +32,7 @@ public class LoginStepDefinitions {
 
     }
     @When("user clicks to login button")
-    public void user_clicks_on_the_log_in_button() {
+    public void user_clicks_on_the_login_button() {
 
         loginPage.loginButton.click();
 
