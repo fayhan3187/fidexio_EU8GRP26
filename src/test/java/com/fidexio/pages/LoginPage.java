@@ -21,5 +21,8 @@ public class LoginPage {
     @FindBy (xpath = "//*[text() = 'Reset Password']")
     public WebElement resetPasswordButton;
 
+    @FindBy (xpath = "//span[@class='oe_topbar_name']")
+    public static WebElement title;
+
 
 }
