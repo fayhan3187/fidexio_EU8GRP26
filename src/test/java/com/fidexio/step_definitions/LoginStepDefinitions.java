@@ -12,7 +12,7 @@ public class LoginStepDefinitions {
 
     LoginPage loginPage = new LoginPage();
 
-    @Given("user is at the login page of fidexio application")
+    @Given("user is on the login page of fidexio page")
     public void user_is_at_the_login_page_of_fidexio_application() {
 
         String url = ConfigurationReader.getProperty("fidexioUrl");
@@ -31,7 +31,7 @@ public class LoginStepDefinitions {
         loginPage.passwordInput.sendKeys(string);
 
     }
-    @When("user clicks on the Log in button")
+    @When("user clicks to login button")
     public void user_clicks_on_the_log_in_button() {
 
         loginPage.loginButton.click();
