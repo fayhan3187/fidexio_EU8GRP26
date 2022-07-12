@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="721cbbf9-ee43-4593-9598-445291b02a6e" name="Changes" comment="Runnable login features added">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/fidexio/step_definitions/LoginStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fidexio/step_definitions/LoginStepDefinitions.java" afterDir="false" />
+    <list default="true" id="721cbbf9-ee43-4593-9598-445291b02a6e" name="Changes" comment="step definitions corrected">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +94,10 @@
       <updated>1657614753444</updated>
       <workItem from="1657614757794" duration="6594000" />
       <workItem from="1657633500786" duration="3001000" />
-      <workItem from="1657645632459" duration="2112000" />
+      <workItem from="1657645632459" duration="2274000" />
+      <workItem from="1657654714545" duration="20000" />
+      <workItem from="1657655967070" duration="560000" />
+      <workItem from="1657657631002" duration="611000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1657621339212</created>
@@ -116,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657650283392</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="step definitions corrected">
+      <created>1657650687978</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657650687978</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +148,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Final commit" />
     <MESSAGE value="Runnable login features added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Runnable login features added" />
+    <MESSAGE value="step definitions corrected" />
+    <option name="LAST_COMMIT_MESSAGE" value="step definitions corrected" />
   </component>
 </project>
