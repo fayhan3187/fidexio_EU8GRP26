@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="721cbbf9-ee43-4593-9598-445291b02a6e" name="Changes" comment="Final commit">
+    <list default="true" id="721cbbf9-ee43-4593-9598-445291b02a6e" name="Changes" comment="First commit">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fidexio/pages/VehicleServiceLogsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fidexio/step_definitions/VehicleServiceLogsPageDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/VehicleServiceLog.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fidexio/step_definitions/FuelLogStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fidexio/step_definitions/FuelLogStepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/FuelLog.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/FuelLog.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +121,7 @@
       <workItem from="1657666198280" duration="4000" />
       <workItem from="1657826384793" duration="128000" />
       <workItem from="1657826530151" duration="343000" />
-      <workItem from="1657826894765" duration="455000" />
+      <workItem from="1657826894765" duration="3088000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1657621339212</created>
@@ -125,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657621339212</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First commit">
+      <created>1657827682523</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657827682523</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +154,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="zafer" />
+                        <option value="US-28_ZAFER" />
                       </list>
                     </value>
                   </entry>
@@ -157,6 +169,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Final commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final commit" />
+    <MESSAGE value="First commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
   </component>
 </project>

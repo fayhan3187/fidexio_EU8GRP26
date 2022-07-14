@@ -1,4 +1,4 @@
-@FIDE-1050
+@FIDE-1052
 Feature: Creating new Fuel Log for the vehicle.
 
   Background: User should be at the "url" page
@@ -9,4 +9,6 @@ Feature: Creating new Fuel Log for the vehicle.
 
   Scenario: Verify that USER can create new Vehicles Fuel Logs.
     When user click on More button
-    And user click fleet button
+    And user clicks on Fleet button
+    And user clicks ServiceLogs Button
+    And user clicks to Create button
