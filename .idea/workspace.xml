@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="721cbbf9-ee43-4593-9598-445291b02a6e" name="Changes" comment="step definitions corrected">
+    <list default="true" id="721cbbf9-ee43-4593-9598-445291b02a6e" name="Changes" comment="Hooks type  changed">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fidexio/pages/FuelLogPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fidexio/step_definitions/FuelLogStepDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/FuelLog.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fidexio/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fidexio/runners/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fidexio/step_definitions/LoginStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fidexio/step_definitions/LoginStepDefinitions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="furkan" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,18 +43,9 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/emine/IdeaProjects/fidexio_EU8GRP26/src/test/resources/features&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\emine\IdeaProjects\fidexio_EU8GRP26\src\test\resources\features" />
@@ -81,6 +76,9 @@
       <list>
         <item itemvalue="JUnit.CukesRunner" />
         <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="JUnit.CukesRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -98,6 +96,8 @@
       <workItem from="1657654714545" duration="20000" />
       <workItem from="1657655967070" duration="560000" />
       <workItem from="1657657631002" duration="611000" />
+      <workItem from="1657797668329" duration="38000" />
+      <workItem from="1657823591794" duration="1326000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1657621339212</created>
