@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "com/fidexio/step_definitions",
         dryRun = false,
-        tags = "@smoke"
+        tags = "@FIDE-1050"
         // publish = true //enable a functionality from cucumber to generate a public link for the
                           // report of our final execution of our code
 
