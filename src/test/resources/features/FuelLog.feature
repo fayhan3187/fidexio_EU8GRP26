@@ -9,4 +9,10 @@ Feature: Creating new Fuel Log for the vehicle.
 
   Scenario: Verify that USER can create new Vehicles Fuel Logs.
     When user click on More button
+    And user clicks on Fleet Button
+    And user clicks on Vehicles Fuel Logs button
+    And user clicks on create button
+    And user clicks on Vehicle Id Left Arrow for selecting car
+    And user cliks on the first car from dropdown menu
+
 
