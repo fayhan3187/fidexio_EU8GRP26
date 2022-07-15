@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="721cbbf9-ee43-4593-9598-445291b02a6e" name="Changes" comment="First commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/fidexio/pages/VehicleServiceLogsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/fidexio/step_definitions/VehicleServiceLogsPageDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/VehicleServiceLog.feature" afterDir="false" />
+    <list default="true" id="721cbbf9-ee43-4593-9598-445291b02a6e" name="Changes" comment="until creat button finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/fidexio/step_definitions/FuelLogStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fidexio/step_definitions/FuelLogStepDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/FuelLog.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/FuelLog.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fidexio/pages/VehicleServiceLogsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fidexio/pages/VehicleServiceLogsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fidexio/step_definitions/VehicleServiceLogsPageDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fidexio/step_definitions/VehicleServiceLogsPageDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/VehicleServiceLog.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/VehicleServiceLog.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +69,7 @@
       <recent name="com.fidexio.step_definitions" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CukesRunner">
     <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="fidexio_EU8GRP26" />
       <extension name="coverage">
@@ -97,11 +96,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: Verify that USER can create..." type="cucumber.js" factoryName="Cucumber.js" temporary="true">
+      <option name="myFilePath" value="$PROJECT_DIR$/src/test/resources/features/VehicleServiceLog.feature" />
+      <option name="myNameFilter" value="^Verify that USER can create new Vehicles Fuel Logs\.$" />
+      <option name="cucumberJsArguments" value="" />
+      <option name="workingDirectory" />
+      <method v="2" />
+    </configuration>
+    <configuration name="VehicleServiceLog.feature" type="cucumber.js" factoryName="Cucumber.js" temporary="true">
+      <option name="myFilePath" value="$PROJECT_DIR$/src/test/resources/features/VehicleServiceLog.feature" />
+      <option name="myNameFilter" />
+      <option name="cucumberJsArguments" value="" />
+      <option name="workingDirectory" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CukesRunner" />
-        <item itemvalue="JUnit.CukesRunner" />
-        <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="Cucumber.js.VehicleServiceLog.feature" />
+        <item itemvalue="Cucumber.js.Scenario: Verify that USER can create..." />
         <item itemvalue="JUnit.CukesRunner" />
         <item itemvalue="JUnit.CukesRunner" />
       </list>
@@ -121,7 +134,8 @@
       <workItem from="1657666198280" duration="4000" />
       <workItem from="1657826384793" duration="128000" />
       <workItem from="1657826530151" duration="343000" />
-      <workItem from="1657826894765" duration="3088000" />
+      <workItem from="1657826894765" duration="5835000" />
+      <workItem from="1657884736945" duration="10496000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1657621339212</created>
@@ -137,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657827682523</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="until creat button finished">
+      <created>1657830358543</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657830358543</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +191,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Final commit" />
     <MESSAGE value="First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+    <MESSAGE value="until creat button finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="until creat button finished" />
   </component>
 </project>

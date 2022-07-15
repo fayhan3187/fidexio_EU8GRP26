@@ -1,4 +1,4 @@
-@FIDE-1052
+@FIDE-1052 @smoke
 Feature: Creating new Fuel Log for the vehicle.
 
   Background: User should be at the "url" page
@@ -12,3 +12,6 @@ Feature: Creating new Fuel Log for the vehicle.
     And user clicks on Fleet button
     And user clicks ServiceLogs Button
     And user clicks to Create button
+    And user fill all inputs
+    And user clicks Save Button
+    Then user sees the ServiceLogs Panel
