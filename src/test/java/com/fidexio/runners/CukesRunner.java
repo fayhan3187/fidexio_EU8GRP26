@@ -11,12 +11,13 @@ import org.junit.runner.RunWith;
                            // about the scenario that is being executed.
                 "html:target/cucumber-reports.html",
                 "rerun:target/rerun.txt",
-                "me.jvt.cucumber.report.PrettyReports:target/cucumber"
+                "me.jvt.cucumber.report.PrettyReports:target/cucumber",
+                "json:target/cucumber.json"
         },
         features = "src/test/resources/features",
         glue = "com/fidexio/step_definitions",
         dryRun = false,
-        tags = "@smoke"
+        tags = "@FIDE-1050"
         // publish = true //enable a functionality from cucumber to generate a public link for the
                           // report of our final execution of our code
 
