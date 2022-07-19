@@ -12,13 +12,14 @@ public class CalendarPage {
     @FindBy(xpath = "(//span[contains(text(),'Calendar')])[1]")
     public WebElement CalendarButton;
 
-    @FindBy(xpath = "//button[@class='o_calendar_button_day btn btn-sm btn-default active']")
+
+    @FindBy(xpath = "//button[contains(text(),'Day')]")
     public WebElement CalendarButtonDay;
 
-    @FindBy(xpath = "//button[@class='o_calendar_button_week btn btn-sm btn-default active']")
+    @FindBy(xpath = "//button[contains(text(),'Week')]")
     public WebElement CalendarButtonWeek;
 
-    @FindBy(xpath = "//button[@class='o_calendar_button_month btn btn-sm btn-default active']")
+    @FindBy(xpath = "//button[contains(text(),'Month')]")
     public WebElement CalendarButtonMonth;
 
     @FindBy(xpath = "//body[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/div[1]/div[1]/div[2]/table[1]/tbody[1]/tr[1]/td[2]")
@@ -29,6 +30,15 @@ public class CalendarPage {
 
     @FindBy(xpath = "//input[@class='o_input']")
     public WebElement SummaryInput;
+
+    @FindBy(xpath = "//a[contains(text(),' enable desktop notifications')]")
+    public WebElement EnableDesktopNotifications;
+
+    @FindBy(xpath = "//span[contains(text(),'Delete')]")
+    public WebElement DeleteButton;
+
+    @FindBy(xpath = "(//span[contains(text(),'Edit')])[2]")
+    public WebElement EditButton;
 
 
 
