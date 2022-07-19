@@ -25,7 +25,7 @@ Feature: Creating new Fuel Log for the vehicle.
     And user writes "any" test in information field
     And user clicks on save button
     Then user should see the edit button
-
+#
 
 
 
