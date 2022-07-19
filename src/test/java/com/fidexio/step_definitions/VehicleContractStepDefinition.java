@@ -53,6 +53,7 @@ public class VehicleContractStepDefinition {
     @Then("user should see {string} displayed")
     public void userShouldSeeDisplayed(String string) {
         Assert.assertTrue(vehicleContractPage.VehicleContractName.isDisplayed());
+        BrowserUtils.sleep(1);
     }
 
 }
