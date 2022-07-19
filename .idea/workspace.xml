@@ -4,17 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="721cbbf9-ee43-4593-9598-445291b02a6e" name="Changes" comment="until creat button finished">
+    <list default="true" id="721cbbf9-ee43-4593-9598-445291b02a6e" name="Changes" comment="step definitions corrected">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fidexio/pages/FleetMenuOptionsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fidexio/step_definitions/FleetMenuOpt_StepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/FleetMenuOptions.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/fidexio/pages/VehicleServiceLogsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fidexio/pages/VehicleServiceLogsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/fidexio/step_definitions/VehicleServiceLogsPageDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fidexio/step_definitions/VehicleServiceLogsPageDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/VehicleServiceLog.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/VehicleServiceLog.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fidexio/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fidexio/runners/CukesRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -44,19 +47,8 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/emine/IdeaProjects/fidexio_EU8GRP26/src/test/resources/features&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/birol/IdeaProject/fidexio_EU8GRP26/src/test/resources/features&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -64,6 +56,9 @@
       <recent name="C:\Users\emine\IdeaProjects\fidexio_EU8GRP26\src\test\resources\features" />
       <recent name="C:\Users\emine\IdeaProjects\fidexio_EU8GRP26\src\test\java\com\fidexio\runners" />
       <recent name="C:\Users\emine\IdeaProjects\fidexio_EU8GRP26\src\test\java\com\fidexio\utilities" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\birol\IdeaProject\fidexio_EU8GRP26\src\test\resources\features" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.fidexio.step_definitions" />
@@ -85,16 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="Scenario: Test Fleet Menu Options" type="cucumber.js" factoryName="Cucumber.js" temporary="true">
+      <option name="myFilePath" value="$PROJECT_DIR$/src/test/resources/features/FleetMenuOptions.feature" />
+      <option name="myNameFilter" value="^Test Fleet Menu Options$" />
+      <option name="cucumberJsArguments" value="" />
+      <option name="workingDirectory" />
+      <method v="2" />
     </configuration>
     <configuration name="Scenario: Verify that USER can create..." type="cucumber.js" factoryName="Cucumber.js" temporary="true">
       <option name="myFilePath" value="$PROJECT_DIR$/src/test/resources/features/VehicleServiceLog.feature" />
@@ -113,9 +104,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="Cucumber.js.Scenario: Test Fleet Menu Options" />
         <item itemvalue="Cucumber.js.VehicleServiceLog.feature" />
         <item itemvalue="Cucumber.js.Scenario: Verify that USER can create..." />
-        <item itemvalue="JUnit.CukesRunner" />
         <item itemvalue="JUnit.CukesRunner" />
       </list>
     </recent_temporary>
@@ -129,13 +120,16 @@
       <option name="presentableId" value="Default" />
       <updated>1657614753444</updated>
       <workItem from="1657614757794" duration="6594000" />
-      <workItem from="1657633500786" duration="2192000" />
-      <workItem from="1657646371168" duration="821000" />
-      <workItem from="1657666198280" duration="4000" />
-      <workItem from="1657826384793" duration="128000" />
-      <workItem from="1657826530151" duration="343000" />
-      <workItem from="1657826894765" duration="5835000" />
-      <workItem from="1657884736945" duration="10496000" />
+      <workItem from="1657633500786" duration="3001000" />
+      <workItem from="1657645632459" duration="2274000" />
+      <workItem from="1657654714545" duration="20000" />
+      <workItem from="1657655967070" duration="560000" />
+      <workItem from="1657657631002" duration="611000" />
+      <workItem from="1657797668329" duration="38000" />
+      <workItem from="1657823591794" duration="1326000" />
+      <workItem from="1658201989536" duration="21000" />
+      <workItem from="1658202286911" duration="7573000" />
+      <workItem from="1658232975875" duration="5965000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1657621339212</created>
@@ -144,21 +138,28 @@
       <option name="project" value="LOCAL" />
       <updated>1657621339212</updated>
     </task>
-    <task id="LOCAL-00002" summary="First commit">
-      <created>1657827682523</created>
+    <task id="LOCAL-00002" summary="Final commit">
+      <created>1657635929889</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1657827682523</updated>
+      <updated>1657635929890</updated>
     </task>
-    <task id="LOCAL-00003" summary="until creat button finished">
-      <created>1657830358543</created>
+    <task id="LOCAL-00003" summary="Runnable login features added">
+      <created>1657650283392</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1657830358543</updated>
+      <updated>1657650283392</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="step definitions corrected">
+      <created>1657650687978</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657650687978</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,19 +170,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="US-28_ZAFER" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -190,8 +179,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Final commit" />
-    <MESSAGE value="First commit" />
-    <MESSAGE value="until creat button finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="until creat button finished" />
+    <MESSAGE value="Runnable login features added" />
+    <MESSAGE value="step definitions corrected" />
+    <option name="LAST_COMMIT_MESSAGE" value="step definitions corrected" />
   </component>
 </project>
