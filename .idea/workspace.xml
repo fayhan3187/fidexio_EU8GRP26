@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="721cbbf9-ee43-4593-9598-445291b02a6e" name="Changes" comment="step definitions corrected">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/fidexio/pages/FleetMenuOptionsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/fidexio/step_definitions/FleetMenuOpt_StepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/FleetMenuOptions.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/fidexio/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fidexio/runners/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fidexio/step_definitions/FleetMenuOpt_StepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fidexio/step_definitions/FleetMenuOpt_StepDef.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
