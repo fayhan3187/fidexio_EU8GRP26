@@ -13,35 +13,30 @@ public class VehicleContractPage {
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
-    @FindBy (xpath = "//a[contains(text(),\"More\")]")
-    public WebElement moreButton;
-
-    @FindBy(xpath = "//span[normalize-space(text()) = 'Fleet']")
-    public WebElement fleetButton;
 
     @FindBy(xpath = "//span[normalize-space(text()) = 'Vehicles Contracts']")
-    public WebElement oeMenuTextSpan;
+    public WebElement VehiclesContracts;
 
-    @FindBy(xpath = "//button[@accesskey='c']")
-    public WebElement btnButton;
+    @FindBy(xpath ="(//input[@class='o_input ui-autocomplete-input'])[1]")
+    public WebElement Vehicle;
 
-    @FindBy(xpath ="//input[@id='o_field_input_124']")
-    public WebElement dropdownButton;
+    @FindBy(xpath ="//a[contains(text(),'Bmw/Serie 1/1-BMW-001')]")
+    public WebElement Bmw;
 
-    @FindBy(xpath ="//input[@id='o_field_input_382']")
-    public WebElement firstCarType;
-    
-    @FindBy(xpath ="//input[@id='o_field_input_126']")
-    public WebElement amountInput;
+    @FindBy(name="amount")
+    public WebElement ActivationCost;
 
-    @FindBy(xpath ="//select[@id='o_field_input_127']")
-    public WebElement select;
+    @FindBy(name="cost_frequency")
+    public WebElement CostPeriod;
 
-    @FindBy(xpath ="//select[@id='o_field_input_386']")
-    public WebElement FirstRecurringCost;
+    @FindBy(xpath = "//option[text()='Monthly']")
+    public WebElement SelectOption;
 
-    @FindBy(xpath ="//input[@id='o_field_input_128']")
-    public WebElement costGeneratedInput;
+    @FindBy(name="cost_generated")
+    public WebElement RecurringCost;
+
+    @FindBy(xpath = "(//li[@class='active'])[3]")
+    public WebElement VehicleContractName;
 
 
 }
