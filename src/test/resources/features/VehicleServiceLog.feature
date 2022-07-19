@@ -1,5 +1,5 @@
 
-@smoke
+@FIDE-1052
 Feature: Creating new Fuel Log for the vehicle.
 
   Background: User should be at the "url" page
