@@ -1,6 +1,7 @@
 package com.fidexio.step_definitions;
 
 import com.fidexio.pages.CalendarPage;
+import com.fidexio.utilities.BrowserUtils;
 import com.fidexio.utilities.Driver;
 import com.github.javafaker.Faker;
 import io.cucumber.java.en.And;
@@ -39,15 +40,17 @@ public class CalendarPageDefinitions {
     public void userCanCreateEventByClickingOnTimeBox() {
         calendar.CalendarButtonWeek.click();
         calendar.EmptyBody.click();
-        calendar.SummaryInput.sendKeys("My First Project");
+        calendar.SummaryInput.sendKeys("zafer");
         calendar.CreateButton.click();
-        Assert.assertTrue(Driver.getDriver().findElement(By.xpath("//tbody/tr[1]/td[2]/a[1]/div[1]/div[2]/div[1]")).getText().contains("My First Project"));
+
 
     }
 
     @Then("User can edit a created event")
     public void userCanEditACreatedEvent() {
+       Driver.getDriver().findElement(By.xpath("//div[contains(text(),'zafer')]")).click();
         calendar.EditButton.click();
+        Assert.assertTrue(calendar.verifyWord.getText().contains("zafer"));
 
     }
 }
