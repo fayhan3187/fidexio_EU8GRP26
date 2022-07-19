@@ -11,7 +11,8 @@ import org.junit.runner.RunWith;
                            // about the scenario that is being executed.
                 "html:target/cucumber-reports.html",
                 "rerun:target/rerun.txt",
-                "me.jvt.cucumber.report.PrettyReports:target/cucumber"
+                "me.jvt.cucumber.report.PrettyReports:target/cucumber",
+                "json:target/cucumber-reports/CucumberTestReport.json"
         },
         features = "src/test/resources/features",
         glue = "com/fidexio/step_definitions",

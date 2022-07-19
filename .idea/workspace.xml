@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="721cbbf9-ee43-4593-9598-445291b02a6e" name="Changes" comment="until creat button finished">
+    <list default="true" id="721cbbf9-ee43-4593-9598-445291b02a6e" name="Changes" comment="Us-28 finished finally">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fidexio/pages/CalendarPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/fidexio/pages/VehicleServiceLogsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fidexio/pages/VehicleServiceLogsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/fidexio/step_definitions/VehicleServiceLogsPageDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fidexio/step_definitions/VehicleServiceLogsPageDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fidexio/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fidexio/runners/CukesRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/VehicleServiceLog.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/VehicleServiceLog.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -135,6 +135,7 @@
       <workItem from="1657826530151" duration="343000" />
       <workItem from="1657826894765" duration="5835000" />
       <workItem from="1657884736945" duration="10496000" />
+      <workItem from="1658224610498" duration="3279000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1657621339212</created>
@@ -157,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657830358543</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Us-28 finished finally">
+      <created>1658224298327</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1658224298327</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +199,7 @@
     <MESSAGE value="Final commit" />
     <MESSAGE value="First commit" />
     <MESSAGE value="until creat button finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="until creat button finished" />
+    <MESSAGE value="Us-28 finished finally" />
+    <option name="LAST_COMMIT_MESSAGE" value="Us-28 finished finally" />
   </component>
 </project>
