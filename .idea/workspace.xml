@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="721cbbf9-ee43-4593-9598-445291b02a6e" name="Changes" comment="US 35 - Calendar Functionality  STARTED">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/fidexio/step_definitions/CalendarPageDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/fidexio/pages/CalendarPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fidexio/pages/CalendarPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/fidexio/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fidexio/runners/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/fidexio/step_definitions/LoginStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fidexio/step_definitions/LoginStepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/CalendarPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/CalendarPage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fidexio/step_definitions/CalendarPageDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fidexio/step_definitions/CalendarPageDefinitions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,6 +150,7 @@
       <workItem from="1657826894765" duration="5835000" />
       <workItem from="1657884736945" duration="10496000" />
       <workItem from="1658224610498" duration="12547000" />
+      <workItem from="1658248275133" duration="3597000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1657621339212</created>
@@ -190,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658228332690</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="US 35 - Calendar Functionality  STARTED">
+      <created>1658261872722</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658261872722</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -37,10 +37,11 @@ public class CalendarPage {
     @FindBy(xpath = "//span[contains(text(),'Delete')]")
     public WebElement DeleteButton;
 
-    @FindBy(xpath = "(//span[contains(text(),'Edit')])[2]")
+    @FindBy(xpath = "//button[@class=\"btn btn-sm btn-primary\"]/span")
     public WebElement EditButton;
 
-
+    @FindBy(xpath = "//h4[contains(text(),'zafer')]")
+    public  WebElement verifyWord;
 
 
 }
