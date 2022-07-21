@@ -72,6 +72,5 @@ public class VehicleServiceLogsPageDefinitions {
 
     @Then("user sees the ServiceLogs Panel")
     public void userSeesTheServiceLogsPanel() {
-        Assert.assertEquals(Driver.getDriver().findElement(By.xpath("//a[contains(text(),'Audi/A1/1-AUD-001')]")).getText(),"Audi/A1/1-AUD-001");
-    }
+        Assert.assertEquals("Odometer Details",VehiclePage.ServicesDetails.getText()); }
 }
