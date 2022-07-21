@@ -1,5 +1,5 @@
 #@FIDE-967 user story
-@FIDE-983  #FIDE-983 Test Execution
+@FIDE-983 @smoke #FIDE-983 Test Execution
 Feature: Fidexio Login feature
 
   Background: User in "url" page
