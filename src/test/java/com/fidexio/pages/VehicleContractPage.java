@@ -7,12 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import java.util.List;
 
-public class VehicleContractPage {
-
-    public VehicleContractPage() {
-        PageFactory.initElements(Driver.getDriver(),this);
-    }
-
+public class VehicleContractPage extends BasePage{
 
     @FindBy(xpath = "//span[normalize-space(text()) = 'Vehicles Contracts']")
     public WebElement VehiclesContracts;
