@@ -2,7 +2,6 @@ package com.fidexio.pages;
 
 import com.fidexio.utilities.Driver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.logging.Logs;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -17,7 +16,7 @@ public class FuelLogPage {
     @FindBy(xpath = "//span[normalize-space(text()) = 'Fleet']")
     public WebElement fleetButton;
 
-    @FindBy(xpath = "//span[normalize-space(text()) = 'Vehicles Fuel Logs']")
+    @FindBy(xpath = "//span[normalize-space(text()) = 'oe_menu_text']")
     public WebElement vehiclesFuelLogsButton;
 
     @FindBy(xpath = "//div[@class='fa fa-sm fa-remove o_facet_remove']")

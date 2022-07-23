@@ -3,13 +3,21 @@ package com.fidexio.step_definitions;
 import com.fidexio.pages.LoginPage;
 import com.fidexio.utilities.ConfigurationReader;
 import com.fidexio.utilities.Driver;
+import com.github.javafaker.Faker;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.util.Random;
 
 public class LoginStepDefinitions {
+    Random random = new Random();
 
+    WebDriverWait wait= new WebDriverWait(Driver.getDriver(), 10);
+
+    Faker faker = new Faker();
     LoginPage loginPage = new LoginPage();
 
     @Given("user is on the login page of fidexio page")
