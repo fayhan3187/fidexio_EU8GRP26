@@ -1,12 +1,10 @@
 package com.fidexio.step_definitions;
 
 import com.fidexio.pages.VehicleServiceLogsPage;
-import com.fidexio.utilities.BrowserUtils;
 import com.fidexio.utilities.Driver;
 import com.github.javafaker.Faker;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
-import org.joda.time.Seconds;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;

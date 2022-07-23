@@ -1,7 +1,6 @@
 package com.fidexio.pages;
 
 import com.fidexio.utilities.Driver;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -15,7 +14,7 @@ public class VehicleServiceLogsPage {
     @FindBy (xpath = "//span[contains(text(),'Fleet')]")
     public WebElement FleetButton;
 
-    @FindBy (xpath = "//span[contains(text(),'Vehicles Services Logs')]")
+    @FindBy (xpath = "//button[@class='btn btn-primary btn-sm o-kanban-button-new btn-default']")
     public WebElement ServiceLogsButton;
 
     @FindBy (xpath = "//button[@class=\"btn btn-primary btn-sm o_list_button_add\"]")
