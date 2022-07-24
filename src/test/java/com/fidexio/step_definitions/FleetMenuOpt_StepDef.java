@@ -17,6 +17,9 @@ public class FleetMenuOpt_StepDef {
         fleetMenuOptionsPage.MoreButton.click();
         wait.until(ExpectedConditions.elementToBeClickable(fleetMenuOptionsPage.FleetButton));
         fleetMenuOptionsPage.FleetButton.click();
+        //String ExpectedResult ="Vehicles";
+        //String ActualResult = (fleetMenuOptionsPage.vehiclesButton.getText());
+
         Assert.assertEquals(Driver.getDriver().findElement(By.xpath("//span[normalize-space(text()) = 'Vehicles']")).getText(),"Vehicles");
     }
 

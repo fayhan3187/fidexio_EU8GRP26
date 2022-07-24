@@ -7,6 +7,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.Random;
@@ -16,6 +17,7 @@ public class NewVehicleStepDef {
     Random random = new Random();
     WebDriverWait wait = new WebDriverWait(Driver.getDriver(), 10);
     Faker faker = new Faker();
+    //Select select = new Select();
 
     //wait.until(ExpectedConditions.elementToBeClickable(NewVehiclePage.CreateButton));
 
@@ -104,8 +106,8 @@ public class NewVehicleStepDef {
 
     @And("user enters Immatriculation Date")
     public void userEntersImmatriculationDate() {
-        newVehicle.ImmatriculationDateButton.click();
-        newVehicle.SelectImmatriculationDateButton.click();
+        //newVehicle.ImmatriculationDateButton.click();
+        //newVehicle.SelectImmatriculationDateButton.click();
     }
 
     @And("user enters Catalog Value")
@@ -122,6 +124,7 @@ public class NewVehicleStepDef {
 
     @And("user select from the Transmission from Dropdown Menu")
     public void userSelectFromTheTransmissionFromDropdownMenu() {
+
     }
 
     @And("user select from the Fuel Type from Dropdown Menu")
