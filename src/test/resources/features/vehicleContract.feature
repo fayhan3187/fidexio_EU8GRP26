@@ -6,7 +6,7 @@ Feature: Creating A New Vehicle Contracts Function.
     And user enters password "posmanager"
     And user clicks to login button
 
-  @FIDE-107O @smoke
+  @FIDE-107O
   Scenario: Verify that USER can create A New Vehicle Contracts.
     When user click on More button
     And user clicks on Fleet Button
