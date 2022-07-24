@@ -8,15 +8,16 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         plugin = {
                 //"pretty", //basically it just prints out additional information
-                           // about the scenario that is being executed.
+                           // about the scenario that is being executed."json:target/cucumber.json",
                 "html:target/cucumber-reports.html",
                 "rerun:target/rerun.txt",
-                "me.jvt.cucumber.report.PrettyReports:target/cucumber"
+                "me.jvt.cucumber.report.PrettyReports:target/cucumber",
+                "json:target/cucumber.json"
         },
         features = "src/test/resources/features",
         glue = "com/fidexio/step_definitions",
         dryRun = false,
-        tags = "@FIDE-1064"
+        tags = "@FIDE-1051"
         // publish = true //enable a functionality from cucumber to generate a public link for the
                           // report of our final execution of our code
 

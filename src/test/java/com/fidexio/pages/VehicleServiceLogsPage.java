@@ -25,7 +25,7 @@ public class VehicleServiceLogsPage {
     @FindBy(xpath="//input[@name='odometer']")
     public WebElement OdometerInput;
 
-    @FindBy(xpath="//input[@id=\"o_field_input_476\"]")
+    @FindBy(xpath="//input[@name='inv_ref']")
     public WebElement ServiceInput1;
 
     @FindBy (xpath = "//ul[@id=\"ui-id-4\"]//li")
@@ -58,6 +58,8 @@ public class VehicleServiceLogsPage {
     @FindBy(xpath="//button[@accesskey='s']")
     public WebElement SaveButton;
 
+    @FindBy(xpath="//div[contains(text(),'Odometer Details')]")
+    public WebElement ServicesDetails;
 
 
 }

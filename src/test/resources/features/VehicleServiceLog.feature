@@ -1,4 +1,5 @@
-@FIDE-1052 @smoke
+
+@FIDE-1052
 Feature: Creating new Fuel Log for the vehicle.
 
   Background: User should be at the "url" page
@@ -6,7 +7,7 @@ Feature: Creating new Fuel Log for the vehicle.
     When user enters username "posmanager10@info.com"
     And user enters password "posmanager"
     And user clicks to login button
-
+@smoke
   Scenario: Verify that USER can create new Vehicles Fuel Logs.
     When user click on More button
     And user clicks on Fleet button
