@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="721cbbf9-ee43-4593-9598-445291b02a6e" name="Changes" comment="Hooks type  changed">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/fidexio/pages/FuelLogPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/fidexio/step_definitions/FuelLogStepDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/FuelLog.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fidexio/pages/EmployeePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fidexio/step_definitions/EmployeesStepDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Employees.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/fidexio/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fidexio/runners/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/fidexio/step_definitions/LoginStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fidexio/step_definitions/LoginStepDefinitions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +33,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2BptDg1w7CIZLo2RWM0FlUyeXuj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -44,6 +49,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RecentsManager">
@@ -56,7 +63,67 @@
       <recent name="com.fidexio.step_definitions" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CukesRunner">
+    <configuration name="Scenario: Verify that all buttons work as expected at the employees stage" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Employees.feature" />
+      <option name="GLUE" value="com.fidexio.step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="fidexio_EU8GRP26" />
+      <option name="NAME_FILTER" value="^Verify that all buttons work as expected at the employees stage$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify that all buttons work as expected at the employees stage$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify that all buttons work as expected at the employees stage" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: &quot;Employee created&quot; message appears under full profile." type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Employees.feature" />
+      <option name="GLUE" value="com.fidexio.step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="fidexio_EU8GRP26" />
+      <option name="NAME_FILTER" value="^\&quot;Employee created\&quot; message appears under full profile\.$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^\&quot;Employee created\&quot; message appears under full profile\.$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: &quot;Employee created&quot; message appears under full profile." />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: user should be able to see created employee is listed after clicking the Employees module" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Employees.feature" />
+      <option name="GLUE" value="com.fidexio.step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="fidexio_EU8GRP26" />
+      <option name="NAME_FILTER" value="^user should be able to see created employee is listed after clicking the Employees module$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^user should be able to see created employee is listed after clicking the Employees module$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: user should be able to see created employee is listed after clicking the Employees module" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="fidexio_EU8GRP26" />
       <extension name="coverage">
@@ -72,12 +139,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CukesRunner" />
-        <item itemvalue="JUnit.CukesRunner" />
-        <item itemvalue="JUnit.CukesRunner" />
-        <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="Cucumber Java.Scenario: user should be able to see created employee is listed after clicking the Employees module" />
+        <item itemvalue="Cucumber Java.Scenario: &quot;Employee created&quot; message appears under full profile." />
+        <item itemvalue="Cucumber Java.Scenario: Verify that all buttons work as expected at the employees stage" />
         <item itemvalue="JUnit.CukesRunner" />
       </list>
     </recent_temporary>
@@ -138,7 +216,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
