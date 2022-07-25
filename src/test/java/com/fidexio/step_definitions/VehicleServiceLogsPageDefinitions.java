@@ -29,7 +29,7 @@ public class VehicleServiceLogsPageDefinitions {
 
     @And("user clicks ServiceLogs Button")
     public void userClicksServiceLogsButton() {
-        wait.until(ExpectedConditions.elementToBeClickable(VehiclePage.ServiceLogsButton));
+        //wait.until(ExpectedConditions.elementToBeClickable(VehiclePage.ServiceLogsButton));
         VehiclePage.ServiceLogsButton.click();
     }
 
@@ -73,4 +73,6 @@ public class VehicleServiceLogsPageDefinitions {
     @Then("user sees the ServiceLogs Panel")
     public void userSeesTheServiceLogsPanel() {
         Assert.assertEquals("Odometer Details",VehiclePage.ServicesDetails.getText()); }
+
+
 }
