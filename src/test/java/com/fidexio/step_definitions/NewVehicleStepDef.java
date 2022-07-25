@@ -88,11 +88,15 @@ public class NewVehicleStepDef {
     }
 
     @And("user enters Seats Number")
-    public void userEntersSeatsNumber() {newVehicle.SeatsNumberEntry.sendKeys("5");
+    public void userEntersSeatsNumber() {
+        newVehicle.SeatsNumberEntry.clear();
+        newVehicle.SeatsNumberEntry.sendKeys("5");
     }
 
     @And("user enters Doors Number")
-    public void userEntersDoorsNumber() {newVehicle.DoorsNumberEntry.sendKeys("5");
+    public void userEntersDoorsNumber() {
+        newVehicle.SeatsNumberEntry.clear();
+        newVehicle.DoorsNumberEntry.sendKeys("5");
     }
 
     @And("user enters Color")
