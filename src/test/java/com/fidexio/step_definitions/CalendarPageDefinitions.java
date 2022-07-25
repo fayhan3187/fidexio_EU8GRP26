@@ -53,4 +53,14 @@ public class CalendarPageDefinitions {
         Assert.assertTrue(calendar.verifyWord.getText().contains("zafer"));
 
     }
+
+
+
+    @Then("User delete data which we added")
+    public void userDeleteDataWhichWeAdded() {
+
+            Driver.getDriver().findElement(By.xpath("//div[contains(text(),'zafer')]")).click();
+            Driver.getDriver().findElement(By.xpath("//span[contains(text(),'Delete')]")).click();
+
+    }
 }
