@@ -9,6 +9,8 @@ import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.Keys;
 
+import static com.fidexio.utilities.BrowserUtils.*;
+
 public class FuelLogStepDefinition {
 
     FuelLogPage fuelLogPage= new FuelLogPage();
@@ -48,6 +50,7 @@ public class FuelLogStepDefinition {
 
     @And("user clicks on the first car from dropdown menu")
     public void userClicksOnTheFirstCarFromDropdownMenu() {
+        waitFor(2);
         fuelLogPage.firstCarSelection.click();
     }
 
@@ -78,7 +81,7 @@ public class FuelLogStepDefinition {
 
     @Then("user should see total price should as {string}")
     public void userShouldSeeTotalPriceShouldAs(String totalPrice) {
-        BrowserUtils.waitFor(2);
+        waitFor(2);
         fuelLogPage.amountInput.click();
         String ExpectedPrice= totalPrice;
         String ActualPrice= fuelLogPage.amountInput.getAttribute("value");
