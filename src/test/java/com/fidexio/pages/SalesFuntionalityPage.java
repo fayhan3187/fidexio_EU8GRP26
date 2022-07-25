@@ -14,7 +14,7 @@ public class SalesFuntionalityPage {
     @FindBy(xpath = "//a[@href='/web#menu_id=445&action=']/span") ////a[@href='/web#menu_id=445&action=']/span
     public WebElement salesbutton;
 
-
+//
   //  @FindBy(xpath = "//*[@id=\"oe_main_menu_navbar\"]/div[2]/ul[1]/li[6]/a")
  //   public WebElement salesbutton;
 
