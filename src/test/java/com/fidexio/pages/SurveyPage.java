@@ -15,9 +15,6 @@ public class SurveyPage {
     @FindBy (xpath ="//a[@data-menu='475']//span")
     public WebElement surveysButton;
 
-    @FindBy(xpath = "//button[normalize-space(text()) = 'Create']")
-    public WebElement surveyCreateButton;
-
     @FindBy (xpath = "//input[@placeholder='Survey Title']")
     public WebElement surveyTitle;
 
@@ -29,6 +26,26 @@ public class SurveyPage {
 
     @FindBy (xpath = "//button[.='Design Survey']")
     public WebElement designSurvey;
+
+    @FindBy (xpath = "//p[.='Survey created']")
+    public WebElement surveyCreatedMessage;
+
+    @FindBy (xpath = "//span[.='Crow']")
+    public WebElement newSurvey;
+
+    @FindBy (xpath = "//button[@class='btn btn-primary btn-sm o_form_button_save']")
+    public WebElement saveSurvey;
+
+    @FindBy(xpath = "//button[normalize-space(text()) = 'Create']")
+    public WebElement surveyCreateButton;
+
+
+
+
+
+
+
+
 
 
     
