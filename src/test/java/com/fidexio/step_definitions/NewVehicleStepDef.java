@@ -6,6 +6,9 @@ import com.github.javafaker.Faker;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.junit.Assert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -17,7 +20,6 @@ public class NewVehicleStepDef {
     Random random = new Random();
     WebDriverWait wait = new WebDriverWait(Driver.getDriver(), 10);
     Faker faker = new Faker();
-    //Select select = new Select();
 
     //wait.until(ExpectedConditions.elementToBeClickable(NewVehiclePage.CreateButton));
 
@@ -124,11 +126,15 @@ public class NewVehicleStepDef {
 
     @And("user select from the Transmission from Dropdown Menu")
     public void userSelectFromTheTransmissionFromDropdownMenu() {
+        Select select = new Select(NewVehiclePage.TransmissionButton);
+        select.selectByIndex(2);
 
     }
 
     @And("user select from the Fuel Type from Dropdown Menu")
-    public void userSelectFromTheFuelTypeFromDropdownMenu() {;
+    public void userSelectFromTheFuelTypeFromDropdownMenu() {
+        Select select = new Select(NewVehiclePage.FuelTypeButton);
+        select.selectByIndex(1);
 
     }
 
@@ -162,6 +168,8 @@ public class NewVehicleStepDef {
 
     @Then("User Checks the Vehicle Data saved")
     public void userChecksTheVehicleDataSaved() {
+        WebElement createdVehicle = Driver.getDriver().findElement(By.xpath("//li[normalize-space()='Bmw/520ES/01adana01']"));
+        Assert.assertTrue(createdVehicle.isDisplayed());
     }
 
 }

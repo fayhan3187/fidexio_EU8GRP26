@@ -70,7 +70,7 @@ public class NewVehiclePage {
     @FindBy(xpath="/html[1]/body[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/input[1]")
     public WebElement SelectImmatriculationDateButton;
 
-    @FindBy(xpath="//td[@class='day weekend'][normalize-space()='31']")
+    @FindBy(xpath="//input[@class='o_datepicker_input o_input']")
     public WebElement SelectImmatriculationDate;
 
     @FindBy(xpath="//input[@name='car_value']")
@@ -80,10 +80,10 @@ public class NewVehiclePage {
     public WebElement ResidualValue;
 
     @FindBy(xpath="//select[@name='transmission']")
-    public WebElement TransmissionButton;
+    public static WebElement TransmissionButton;
 
     @FindBy(xpath="//select[@name='fuel_type']")
-    public WebElement FuelTypeButton;
+    public static WebElement FuelTypeButton;
 
     @FindBy(xpath="//div[@class='o_form_sheet']//tr[4]//div[@class='o_row']/input[@class='o_field_float o_field_number o_field_widget o_input']")
     public WebElement CO2EmissionsEntry;
