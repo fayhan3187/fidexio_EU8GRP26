@@ -90,12 +90,12 @@ public class NewVehicleStepDef {
     @And("user enters Seats Number")
     public void userEntersSeatsNumber() {
         newVehicle.SeatsNumberEntry.clear();
-        newVehicle.SeatsNumberEntry.sendKeys("5");
+        newVehicle.SeatsNumberEntry.sendKeys("4");
     }
 
     @And("user enters Doors Number")
     public void userEntersDoorsNumber() {
-        newVehicle.SeatsNumberEntry.clear();
+        newVehicle.DoorsNumberEntry.clear();
         newVehicle.DoorsNumberEntry.sendKeys("5");
     }
 
