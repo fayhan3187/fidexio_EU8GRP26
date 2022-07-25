@@ -65,7 +65,7 @@ public class EmployeePage {
     @FindBy(xpath = "//*[@id=\"oe_hr_attendance_status\"]")
     public WebElement employee;
 
-    @FindBy(xpath = "//*[@id=\"o_field_input_709\"]")
+    @FindBy(name = "name")
     public WebElement nameBar;
 
     @FindBy(xpath = "/html/body/div[1]/div[2]/div[1]/div[2]/div[1]/div/div[2]/button[1]")
