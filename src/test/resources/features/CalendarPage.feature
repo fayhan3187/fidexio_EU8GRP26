@@ -12,3 +12,4 @@
    When  User can change display between Day-Week-Month
    And   User can create event by clicking on time box
    Then User can edit a created event
+   Then User delete data which we added

@@ -74,9 +74,5 @@ public class VehicleServiceLogsPageDefinitions {
     public void userSeesTheServiceLogsPanel() {
         Assert.assertEquals("Odometer Details",VehiclePage.ServicesDetails.getText()); }
 
-    @Then("user delete data in the ServiceLogs Panel")
-    public void userDeleteDataInTheServiceLogsPanel() {
-        Driver.getDriver().findElement(By.xpath("//div[contains(text(),'zafer')]")).click();
-        Driver.getDriver().findElement(By.xpath("//span[contains(text(),'Delete')]")).click();
-    }
+
 }

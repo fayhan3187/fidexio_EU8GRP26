@@ -51,6 +51,19 @@ public class CalendarPageDefinitions {
        Driver.getDriver().findElement(By.xpath("//div[contains(text(),'zafer')]")).click();
         calendar.EditButton.click();
         Assert.assertTrue(calendar.verifyWord.getText().contains("zafer"));
+        calendar.DiscardButton.click();
+
+    }
+
+
+
+    @Then("User delete data which we added")
+    public void userDeleteDataWhichWeAdded() {
+
+            calendar.AfterAddedButton.click();
+            wait.until(ExpectedConditions.visibilityOf(calendar.DeleteButton));
+            calendar.DeleteButton.click();
+            calendar.OkButton.click();
 
     }
 }

@@ -22,7 +22,7 @@ public class CalendarPage {
     @FindBy(xpath = "//button[contains(text(),'Month')]")
     public WebElement CalendarButtonMonth;
 
-    @FindBy(xpath = "//body[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/div[1]/div[1]/div[2]/table[1]/tbody[1]/tr[1]/td[2]")
+    @FindBy(xpath = "(//td[@class='fc-day fc-widget-content fc-sun fc-past'])[1]")
     public  WebElement EmptyBody;
 
     @FindBy(xpath = "//body/div[@id='modal_6']/div[1]/div[1]/div[3]/button[1]")
@@ -42,6 +42,19 @@ public class CalendarPage {
 
     @FindBy(xpath = "//h4[contains(text(),'zafer')]")
     public  WebElement verifyWord;
+
+    @FindBy(xpath = "//a[contains(@class,'fc-day-grid-event')]")
+    public  WebElement AfterAddedButton;
+
+    @FindBy(xpath = "//span[.='Discard']")
+    public WebElement DiscardButton;
+    @FindBy(xpath = "//span[.='Ok']")
+    public WebElement OkButton;
+
+
+
+
+
 
 
 }
