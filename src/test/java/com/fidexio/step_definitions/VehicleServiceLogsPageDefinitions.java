@@ -29,7 +29,7 @@ public class VehicleServiceLogsPageDefinitions {
 
     @And("user clicks ServiceLogs Button")
     public void userClicksServiceLogsButton() {
-        wait.until(ExpectedConditions.elementToBeClickable(VehiclePage.ServiceLogsButton));
+        //wait.until(ExpectedConditions.elementToBeClickable(VehiclePage.ServiceLogsButton));
         VehiclePage.ServiceLogsButton.click();
     }
 
