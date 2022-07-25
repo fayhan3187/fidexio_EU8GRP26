@@ -16,3 +16,4 @@ Feature: Creating new Fuel Log for the vehicle.
     And user fill all inputs
     And user clicks Save Button
     Then user sees the ServiceLogs Panel
+    Then user delete data in the ServiceLogs Panel
