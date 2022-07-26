@@ -62,4 +62,6 @@ public class SurveyStepDefinitions {
         BrowserUtils.sleep(4);
         surveyPage.surveyCreateButton.click();
     }
+
+
 }

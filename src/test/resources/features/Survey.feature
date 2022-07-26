@@ -7,7 +7,7 @@ Feature: Creating and designing a new survey from "Surveys" module.
     And user enters password "posmanager"
     And user clicks to login button
 
-
+  @FIDE-1082 @smoke
   Scenario: Verify that all buttons work as expected at the survey design state
     When user is on the survey page of fidexio page
     And user clicks on survey create button
@@ -17,6 +17,7 @@ Feature: Creating and designing a new survey from "Surveys" module.
     And user clicks on Design Survey button
 
 
+  @FIDE-1083
   Scenario: Verify that "Survey created" message appears under the survey
     When user is on the survey page of fidexio page
     And user clicks on survey create button
@@ -25,6 +26,7 @@ Feature: Creating and designing a new survey from "Surveys" module.
     Then user sees "Survey created" message under Today line
 
 
+  @FIDE-1084
   Scenario: Verify that user sees created survey is listed at Surveys module
     When user is on the survey page of fidexio page
     Then user sees the new created survey on the Surveys page
