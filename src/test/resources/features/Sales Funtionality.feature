@@ -9,7 +9,7 @@ Feature:  Sales Functionality S4-Emre
     And user enters password "salesmanager"
     And user clicks to login button
 
-  @FIDE-1078
+  @FIDE-1078 @smoke
   Scenario: : Verify that USER can create and edit a New Customers
     When user click on Sales button
     And user clicks on Customers Button on menu
