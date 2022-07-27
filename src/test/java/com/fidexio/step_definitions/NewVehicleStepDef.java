@@ -6,6 +6,9 @@ import com.github.javafaker.Faker;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.junit.Assert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -162,6 +165,9 @@ public class NewVehicleStepDef {
 
     @Then("User Checks the Vehicle Data saved")
     public void userChecksTheVehicleDataSaved() {
+        //WebElement createdVehicle = Driver.getDriver().findElement(By.xpath("//li[normalize-space()='Bmw/520ES/01adana01']"));
+       // WebElement createdVehicle;
+        //Assert.assertTrue(createdVehicle.isDisplayed());
     }
 
 }

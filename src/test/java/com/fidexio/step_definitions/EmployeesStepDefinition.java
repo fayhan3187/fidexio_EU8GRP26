@@ -183,8 +183,8 @@ public class EmployeesStepDefinition {
     @Then("User see created employee is listed")
     public void userSeeCreatedEmployeeIsListed() {
 
-        WebElement createdEmployee = Driver.getDriver().findElement(By.xpath("//span[.='employee_name']"));
-        Assert.assertTrue(createdEmployee.isDisplayed());
+        WebElement createdVehicle = Driver.getDriver().findElement(By.xpath("//li[normalize-space()='Bmw/520ES/01adana01']"));
+        Assert.assertTrue(createdVehicle.isDisplayed());
 
     }
 }
