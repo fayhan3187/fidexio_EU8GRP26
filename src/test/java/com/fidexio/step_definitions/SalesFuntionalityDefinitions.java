@@ -80,7 +80,9 @@ public class SalesFuntionalityDefinitions {
     @And("user user change  name field")
     public void userUserChangeNameField() {
 
-        BrowserUtils.waitFor(4);
+        BrowserUtils.waitFor(2);
+        salesFuntionalitypage.nameInput.clear();
+        salesFuntionalitypage.nameInput.sendKeys("abccc");
         salesFuntionalitypage.streetInput1.click();
         salesFuntionalitypage.streetInput1.clear();
         salesFuntionalitypage.streetInput1.sendKeys("qwer");

@@ -10,7 +10,7 @@ Feature:  Sales Functionality S4-Emre
     And user clicks to login button
 
   @FIDE-1078
-  Scenario : Verify that USER can create and edit a New Customers
+  Scenario: : Verify that USER can create and edit a New Customers
     When user click on Sales button
     And user clicks on Customers Button on menu
     And user clicks on  Create button
@@ -20,7 +20,7 @@ Feature:  Sales Functionality S4-Emre
     And user user change  name field
     And user clicks save button
     And user clicks on Customers Button on menu
-    And user clicks on search field
+
 
 
 
