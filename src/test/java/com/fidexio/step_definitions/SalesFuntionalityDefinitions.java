@@ -98,15 +98,7 @@ public class SalesFuntionalityDefinitions {
         salesFuntionalitypage.customersButton.click();
     }
 
-    @And("user enters lastly created customers name")
-    public void userEntersLastlyCreatedCustomersName() {
-    }
 
-
-    @Then("user should see New Customer displayed")
-    public void userShouldSeeNewCustomerDisplayed() {
-
-    }
 
 
 }

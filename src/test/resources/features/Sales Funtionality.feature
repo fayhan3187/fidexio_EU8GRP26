@@ -17,13 +17,11 @@ Feature:  Sales Functionality S4-Emre
     And user fill all inputt
     And user click on save button
     And user clicks edit button
-    And user clicks save button
     And user user change  name field
     And user clicks save button
     And user clicks on Customers Button on menu
     And user clicks on search field
-    And user enters lastly created customers name
-    Then user should see New Customer displayed
+
 
 
 
